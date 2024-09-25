@@ -45,7 +45,7 @@ function addListItem(task: Task) {
   item.append(label)
   list?.append(item)
 }
-
+/* Adding this comment */
 function saveTasks() {
   localStorage.setItem("TASKS", JSON.stringify(tasks))
 }
